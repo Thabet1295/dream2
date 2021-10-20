@@ -1,0 +1,45 @@
+extend index
+block site_title 
+    title  عملائنا
+block index
+    div(class="sub-banner")
+        div(class="container breadcrumb-area")
+            div(class="breadcrumb-areas")
+                h1 عملائنا
+                ul(class="breadcrumbs list-unstyled d-flex")
+                    li(class="p-1")
+                        a(href="index.html" class="p-1") الرئيسية
+                    span(class="p-1") /  
+                    li(class="active" class="p-1") عملائنا 
+
+    div(class="feat why-chooce our-Clients bg-gray pt-5")
+        div(class="container")
+            div(class="row")
+                div(class="section-head col-sm-12")
+                    h4
+                        span لمحة عن  
+                        |  عملائنا
+                    p عملاء شركتنا الذي بنفتخر بالتعاون معهم    
+    section#team(class="team-section mt-0 p-0")
+        div(class="container")
+          
+            div(class="text-center cleints-section-carousel owl-carousel owl-themes active wow zoomIn", dir="ltr" data-wow-delay="400ms")
+                // Team-1
+                div(class="item")
+                    img(src="../classic-business/img/clients/agent1.jpg", alt="image")
+                    div(class="team-detail")
+                        h5 شركة  
+                        p  اسم الشركة
+                // Team-2
+                div(class="item")
+                    img(src="../classic-business/img/clients/agent2.jpg", alt="image")
+                    div(class="team-detail")
+                        h5 شركة  
+                        p  اسم الشركة
+                // Team-3
+                div(class="item")
+                    img(src="../classic-business/img/clients/agent3.jpg", alt="image")
+                    div(class="team-detail")
+                       h5 شركة  
+                       p  اسم الشركة
+                

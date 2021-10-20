@@ -1,0 +1,350 @@
+doctype html
+html(lang="ar",dir="rtl")
+  head
+    // Meta Tags
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    // description
+    meta(name="description", content="")
+    // keywords
+    meta(name="keywords", content="")
+    // Page Title
+    block site_title
+        title دريم 2 للشحن
+    // Favicon
+    include include/style
+   
+  body(data-spy="scroll", data-target=".navbar", data-offset="50")
+    // Start Loader
+    div(class="pre-loader")
+      div(class="loader")
+        div
+        div
+        div
+    // End Loader
+    // Start Header
+    include include/header
+    block index
+      section(class="main-slider")
+          div(class="main-slider-carousel owl-carousel owl-theme" dir="ltr")
+              div(class="item")
+                  img(class="img-fluid" src="../classic-business/img/banner1.jpg" alt="")
+                  div(class="item-details")
+                      div(class="container")
+                          div(class="item-text")
+                              h2(class="title") دريم 2 للشحن
+                              p شركة دريم2  واحدة من اكبر رواد الشحن في مصر والعالم العربي
+                              div(class="item-btn")
+                                  div(class="outer-btn")
+                                      a(href="about.html" class="btn")
+                                          span قراءة المزيد
+              div(class="item")
+                  img(class="img-fluid" src="../classic-business/img/banner-2.jpg" alt="")
+                  div(class="item-details")
+                      div(class="container")
+                          div(class="item-text")
+                              h2(class="title") متميزون عن غيرنا
+                              p تقوم بتوفير خدمات الشحن من والي جميع أنحاء العالم (بري بحري و جوي ) صادر و وارد
+                              div(class="item-btn")
+                                  div(class="outer-btn")
+                                      a(href="about.html" class="btn")
+                                          span قراءة المزيد
+              div(class="item")
+                  img(class="img-fluid" src="../classic-business/img/banner-3.jpg" alt="")
+                  div(class="item-details")
+                      div(class="container")
+                          div(class="item-text")
+                              h2(class="title") هدفنا هو خدمتكم 
+                              p لدينا عملاء حول العالم  ولدينا العديد من الرحلات 
+                              div(class="item-btn")
+                                  div(class="outer-btn")
+                                      a(href="about.html" class="btn")
+                                          span قراءة المزيد
+          //main slider
+      
+      //- about us
+      div(class="about-us pt-5 pb-5")  
+        div(class="container")
+            div(class="row align-items-center")
+                div(class="col-md-6")
+                    h3(class="mb-3") من نحن
+                    p(class="text-justify")   تعتبر شركة دريم2  واحدة من اكبر رواد الشحن في مصر والعالم العربي حيث تقوم بتوفير خدمات الشحن من والي جميع أنحاء العالم (بري بحري و   |  جوي ) صادر و وارد
+                div(class="col-md-6 featured-tabs")
+              
+                  div#owl-demo(class="text-center owl-carousel owl-themes active wow zoomIn", dir="ltr" data-wow-delay="400ms")
+                    div(class="item")
+                      img(src="../classic-business/img/slider/slider0.jpg", alt="Owl Image")
+                    div(class="item")
+                      img(src="../classic-business/img/slider/slider1.jpg", alt="Owl Image")
+                    div(class="item")
+                      img(src="../classic-business/img/slider/slider2.jpg", alt="Owl Image")
+                    div(class="item")
+                      img(src="../classic-business/img/slider/slider3.jpg", alt="Owl Image")
+                    div(class="item")
+                      img(src="../classic-business/img/slider/slider4.jpg", alt="Owl Image")
+                    div(class="item")
+                      img(src="../classic-business/img/slider/slider5.jpg", alt="Owl Image")
+      //- end about us
+      section#services(class="services-section")
+        div(class="container")
+          h2(class="wow fadeInDown", data-wow-delay="300ms") خدماتنا
+          p(class="wow fadeInDown", data-wow-delay="300ms")    حيث نقوم  بتوفير خدمات الشحن من والي جميع أنحاء العالم (بري بحري و جوي ) صادر و وارد  
+
+          div(class="row no-gutters ")
+            // Box-1
+            div(class="col-lg-4 col-md-4 col-sm-12 flip-boxes wow fadeInLeft", data-wow-delay="400ms")
+              div(class="flip-box")
+                div(class="flip-box-inner")
+                  div(class="flip-box-front")
+                    i(class="fas fa-shipping-fast")
+                    h5 الشحن البري
+                  div(class="flip-box-back")
+                    i(class="fas fa-shipping-fast")
+                    p تعتبر شركة دريم تو  من رواد النقل البرى. حيث يوجد لدينا اسطول كامل من الشاحنات المفتوحة و المغلقة  
+            // Box-2
+            div(class="col-lg-4 col-md-4 col-sm-12 flip-boxes wow fadeIn", data-wow-delay="300ms")
+              div(class="flip-box")
+                div(class="flip-box-inner blue-box")
+                  div(class="flip-box-front")
+                    i(class="fas fa-ship")
+                    h5 الشحن البحري
+                  div(class="flip-box-back")
+                    i(class="fas fa-ship")
+                    p شركة دريم تو  وكلاء لأكبر الخطوط الملاحية التي تحظى بسمعة طيبة في  انتظام مواعيدها ورحلاتها.
+            // Box-3
+            div(class="col-lg-4 col-md-4 col-sm-12 flip-boxes wow fadeInRight", data-wow-delay="400ms")
+              div(class="flip-box")
+                div(class="flip-box-inner")
+                  div(class="flip-box-front")
+                    i(class="fas fa-fighter-jet")
+                    h5 الشحن الجوي
+                  div(class="flip-box-back")
+                    i(class="fas fa-fighter-jet")
+                    p تعتبر شركة دريم تو  وكلاء جميع خطوط الطيران من والى جميع مطارات العالم بأسعار منافسة
+      // End Services
+      // Start Learn More
+      section(class="learn-more-section")
+        div(class="container")
+          div(class="text-area wow fadeInDown", data-wow-delay="300ms")
+            p هدفنا ان نصبح امتداد لعملك بدلا من كوننا مجرد مقدم خدمة مستقل عنك
+            h2 شركة دريم 2 لخدمات الشحن
+            a(class="btn button btn-rounded trans-btn btn-hvr-white wow fadeInUp", data-wow-delay="300ms", href="javascript:void(0);")
+              | لمعرفة المزيد
+              div(class="btn-hvr-setting")
+                ul(class="btn-hvr-setting-inner")
+                  li(class="btn-hvr-effect")
+                  li(class="btn-hvr-effect")
+                  li(class="btn-hvr-effect")
+                  li(class="btn-hvr-effect")
+      // End Learn More
+      // Start Counters
+      section(class="counter-section")
+        div(class="container")
+          h2(class="wow fadeInDown", data-wow-delay="300ms")  احصائيات عنا
+          p(class="wow fadeInDown", data-wow-delay="300ms") تعتبر شركة دريم2  واحدة من اكبر رواد الشحن في مصر والعالم العربي 
+            br
+            | حيث تقوم بتوفير خدمات الشحن من والي جميع أنحاء العالم (بري بحري و جوي ) صادر و وارد
+          div(class="row no-gutters")
+            // Counter-1
+            div(class="col-lg-3 col-md-12 col-sm-12 col-xs-12 wow fadeInLeft", data-wow-delay="400ms")
+              div(class="counter")
+                div(class="media")
+                  i(class="fas fa-chart-bar")
+                  div(class="media-body")
+                    span(class="timer count-title count-number count") 548
+                    p رحلات نقل
+            // Counter-2
+            div(class="col-lg-3 col-md-12 col-sm-12 col-xs-12 wow fadeInLeft", data-wow-delay="400ms")
+              div(class="counter")
+                div(class="media")
+                  i(class="far fa-clock")
+                  div(class="media-body")
+                    span(class="timer count-title count-number count") 1465
+                    p ساعة
+            // Counter-3
+            div(class="col-lg-3 col-md-12 col-sm-12 col-xs-12 wow fadeInRight", data-wow-delay="400ms")
+              div(class="counter")
+                div(class="media")
+                  i(class="far fa-star")
+                  div(class="media-body")
+                    span(class="timer count-title count-number count") 612
+                    p انطباعات ايجابية
+            // Counter-4
+            div(class="col-lg-3 col-md-12 col-sm-12 col-xs-12 wow fadeInRight", data-wow-delay="400ms")
+              div(class="counter")
+                div(class="media")
+                  i(class="far fa-heart")
+                  div(class="media-body")
+                    span(class="timer count-title count-number count") 735
+                    p عملاء سعداء
+      // End Counters
+      // Start Team
+      section#team(class="team-section")
+        div(class="container")
+          h2(class="wow fadeInDown", data-wow-delay="300ms") فريق العمل
+          p(class="wow fadeInDown", data-wow-delay="300ms") نحن نركز على القيام افضل عمل لك و ليس اسهل عمل لنا
+          div(class=" text-center team-section-carousel owl-carousel owl-themes active wow zoomIn", dir="ltr" data-wow-delay="400ms")
+            // Team-1
+            div(class="item")
+              img(src="../classic-business/img/team1.jpg", alt="image")
+              div(class="team-detail")
+                h5 فريق العمل
+                p  فريق العمل
+            // Team-2
+            div(class="item")
+              img(src="../classic-business/img/team1.jpg", alt="image")
+              div(class="team-detail")
+                h5  فريق العمل
+                p فريق العمل
+            // Team-3
+            div(class="item")
+              img(src="../classic-business/img/team1.jpg ", alt="image")
+              div(class="team-detail")
+                h5 فريق العمل
+                p  فريق العمل
+            // Team-4
+            div(class="item")
+              img(src="../classic-business/img/team1.jpg", alt="image")
+              div(class="team-detail")
+                h5  فريق العمل
+                p  فريق العمل
+            // Team-5
+            div(class="item")
+              img(src="../classic-business/img/team1.jpg", alt="image")
+              div(class="team-detail")
+                h5  فريق العمل
+                p  فريق العمل
+            // Team-6
+            div(class="item")
+              img(src="../classic-business/img/team1.jpg", alt="image")
+              div(class="team-detail")
+                h5  فريق العمل
+                p  فريق العمل
+            // Team-7
+            div(class="item")
+              img(src="../classic-business/img/team1.jpg", alt="image")
+              div(class="team-detail")
+                h5 فريق العمل
+                p  فريق العمل
+            // Team-8
+            div(class="item")
+              img(src="../classic-business/img/team1.jpg", alt="image")
+              div(class="team-detail")
+                h5  فريق العم
+                p  فريق العمل
+            // Team-9
+            div(class="item")
+              img(src="../classic-business/img/team1.jpg", alt="image")
+              div(class="team-detail")
+                h5  فريق العمل
+                p  فريق العمل
+      // End Team
+      // Start Story
+      section(class="story-section")
+        div(class="container")
+          div(class="text-area wow fadeInDown", data-wow-delay="300ms")
+            p قصتنا
+            h2 شاهد فيديو قصير عن قصة نجاحنا
+            a(data-fancybox="", href="https://www.youtube.com/watch?v=7e90gBu4pas", class="btn button btn-rounded trans-btn btn-hvr-white wow fadeInUp", data-wow-delay="300ms")
+              i(class="fas fa-play")
+              |تشغيل
+              div(class="btn-hvr-setting")
+                ul(class="btn-hvr-setting-inner")
+                  li(class="btn-hvr-effect")
+                  li(class="btn-hvr-effect")
+                  li(class="btn-hvr-effect")
+                  li(class="btn-hvr-effect")
+      // End Story
+      // Start Portfolio
+      section#work(class="cubeportfolio")
+        div(class="container")
+          h2(class="wow fadeInDown", data-wow-delay="300ms") اخر المشاريع 
+          p(class="wow fadeInDown", data-wow-delay="300ms")  دورنا يصل الى اكثر من مجرد فهمنا طبيعة عملك , نحن نتعايش معه بكل معوقاته 
+
+          
+          // Portfolio Items Start
+          p(class="imglist",)
+            a(href="../classic-business/img/gallery/gallery1.jpg", data-fancybox="images")
+              img(src="../classic-business/img/gallery/gallery1.jpg")
+            a(href="../classic-business/img/gallery/gallery2.jpg", data-fancybox="images")
+              img(src="../classic-business/img/gallery/gallery2.jpg")
+            a(href="../classic-business/img/gallery/gallery3.jpg", data-fancybox="images")
+              img(src="../classic-business/img/gallery/gallery3.jpg")
+            a(href="../classic-business/img/gallery/gallery4.jpg", data-fancybox="images")
+              img(src="../classic-business/img/gallery/gallery4.jpg")
+            a(href="../classic-business/img/gallery/gallery5.jpg", data-fancybox="images")
+              img(src="../classic-business/img/gallery/gallery5.jpg")
+            a(href="../classic-business/img/gallery/gallery6.jpg", data-fancybox="images")
+              img(src="../classic-business/img/gallery/gallery6.jpg")
+
+          
+            
+          div(class="cube-button")
+            a(class="btn button btn-rounded btn-light-blue btn-hvr-light-blue", href="javascript:void(0);")
+              | قراءة المزيد
+              div(class="btn-hvr-setting")
+                ul(class="btn-hvr-setting-inner")
+                  li(class="btn-hvr-effect")
+                  li(class="btn-hvr-effect")
+                  li(class="btn-hvr-effect")
+                  li(class="btn-hvr-effect")
+      // Start Quote
+      section(class="quote-section")
+            div(class="container")
+              
+              #testimonial4(class="carousel slide testimonial4_indicators testimonial4_control_button thumb_scroll_x swipe_x", dir="ltr" data-ride="carousel", data-pause="hover", data-interval="5000", data-duration="2000")
+                div(class="carousel-inner", role="listbox")
+                  div(class="carousel-item active")
+                    div(class="testimonial4_slide")
+                      img(src="../classic-business/img/team.jpg", class="img-circle img-responsive")
+                    
+                      p(class="font-itailic") هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم
+                      
+                      h4 مدير المشروعات
+                  div(class="carousel-item")
+                    div(class="testimonial4_slide")
+                      img(src="../classic-business/img/team.jpg", class="img-circle img-responsive")
+                    
+                      p هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم
+                      h4 مدير المشروعات    
+                  
+                a(class="carousel-control-prev", href="#testimonial4", data-slide="prev")
+                  span(class="carousel-control-prev-icon")
+                a(class="carousel-control-next", href="#testimonial4", data-slide="next")
+                  span(class="carousel-control-next-icon")
+      // End Quote
+      section#contact(class="contact-section")
+        div(class="container")
+            div(class="row")
+                div(class="col-lg-12 col-md-12 col-sm-12 wow fadeInLeft", data-wow-delay="300ms")
+                    h2 كن  علي تواصل
+                    form#contact-form-data(class="contact-form")
+                        div(class="row")
+                            #result(class="col-12")
+                            div(class="col-lg-6 col-md-6 col-sm-6")
+                                div(class="form-group")
+                                    label الاسم
+                                    input(class="form-control", type="email", placeholder="اسمك بالكامل", required="", name="userName")
+                            div(class="col-lg-6 col-md-6 col-sm-6")
+                                div(class="form-group")
+                                    label البريد الالكتروني
+                                    input(class="form-control", type="email", placeholder="البريد الالكتروني", required="", name="userEmail")
+                            div(class="col-lg-12 col-md-12 col-sm-12")
+                                div(class="form-group")
+                                    label رسالتك
+                                    textarea(class="form-control", placeholder="اكتب رسالتك هنا", name="userMessage", rows="6", cols="50")
+                            a(href="JavaScript:void(0);", class="btn button btn-rounded btn-light-blue btn-hvr-light-blue contact_btn")
+                                | ارسال
+                                div(class="btn-hvr-setting")
+                                    ul(class="btn-hvr-setting-inner")
+                                        li(class="btn-hvr-effect")
+                                        li(class="btn-hvr-effect")
+                                        li(class="btn-hvr-effect")
+                                        li(class="btn-hvr-effect")
+                  
+
+   
+    include include/footer 
+        // End Footer
+    
+    include include/script 

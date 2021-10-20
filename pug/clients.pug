@@ -1,0 +1,45 @@
+extend index
+block site_title 
+    title  Our Clients
+block index
+    div(class="sub-banner")
+        div(class="container breadcrumb-area")
+            div(class="breadcrumb-areas")
+                h1 Our Clients
+                ul(class="breadcrumbs list-unstyled d-flex")
+                    li(class="p-1")
+                        a(href="index.html" class="p-1") Home
+                    span(class="p-1") /  
+                    li(class="active" class="p-1") Our Clients 
+
+    div(class="feat why-chooce our-Clients bg-gray pt-5")
+        div(class="container")
+            div(class="row")
+                div(class="section-head col-sm-12")
+                    h4
+                        span Our 
+                        |  Clients
+                    p Dream 2 Clients    
+    section#team(class="team-section mt-0 p-0")
+        div(class="container")
+          
+            div(class="text-center cleints-section-carousel owl-carousel owl-themes active wow zoomIn", data-wow-delay="400ms")
+                // Team-1
+                div(class="item")
+                    img(src="classic-business/img/clients/agent1.jpg", alt="image")
+                    div(class="team-detail")
+                        h5 Company 
+                        p  Client
+                // Team-2
+                div(class="item")
+                    img(src="classic-business/img/clients/agent2.jpg", alt="image")
+                    div(class="team-detail")
+                        h5 Company 
+                        p  Client
+                // Team-3
+                div(class="item")
+                    img(src="classic-business/img/clients/agent3.jpg", alt="image")
+                    div(class="team-detail")
+                       h5 Company 
+                       p  Client
+                

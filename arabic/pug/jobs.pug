@@ -1,0 +1,64 @@
+extend index
+block site_title 
+    title  وظائف
+block index
+    div(class="sub-banner")
+        div(class="container breadcrumb-area")
+            div(class="breadcrumb-areas")
+                h1 وظائف
+                ul(class="breadcrumbs list-unstyled d-flex")
+                    li(class="p-1")
+                        a(href="index.html" class="p-1") Home
+                    span(class="p-1") /  
+                    li(class="active" class="p-1") وظائف 
+
+    div(class="feat why-chooce our-faq bg-gray pt-5")
+        div(class="container")
+            div(class="row")
+                div(class="section-head col-sm-12")
+                    h4
+                        span Our 
+                        |  وظائف
+                    p  يمكنك التقدم لوظيفة معنا فقط املأ النموذج التالي
+
+    section(class="employee-form")
+        div(class="container")
+            form( method="POST", enctype="multipart/form-data", target="_blank")
+                h3 استمارة التوظيف
+                div(class="form-group")
+                    label(for="exampleInputName") الاسم بالكامل
+                    input#exampleInputName(type="text", name="fullname", class="form-control", placeholder="الاسم بالكامل", required="required")
+                div(class="form-group")
+                    label(for="exampleInputEmail1", required="required") البريد الالكتروني
+                    input#exampleInputEmail1(type="email", name="email", class="form-control", aria-describedby="emailHelp", placeholder="بريدك الالكتروني")
+                div(class="form-group")
+                    label(for="inputAddress") العنوان 
+                    input#inputAddress(type="text", name="address", class="form-control", placeholder="العنوان")
+                div(class="form-row")
+                    div(class="form-group col-md-6")
+                        label(for="inputCity") المدينة
+                        input#inputCity(type="text", name="city", class="form-control", placeholder="المدينة")
+                    div(class="form-group col-md-2")
+                        label(for="inputZip") رقم البريد 
+                        input#inputZip(type="text", name="zip", class="form-control", placeholder="الرقم البريدي")
+                div(class="form-row")        
+                    div(class="form-group col-md-6")
+                        label(for="example-tel-input", class="") رقم الهاتف
+                        input#example-tel-input(class="form-control", name="tel", type="tel", value="1-(555)-555-5555")
+                    div(class="form-group col-md-6")
+                        label(for="example-date-input", class="") تاريخ الميلاد
+                        input#example-date-input(class="form-control", name="starting_date", type="date", value="2020-02-01")
+                div(class="form-group mt-3")
+                    label(class="mr-4") ملف السيرة الذاتية
+                    input(type="file", name="file")
+                a(href="JavaScript:void(0);", class="btn button btn-rounded m-atuo text-center btn-light-blue btn-hvr-light-blue contact_btn")
+                    | ارسال
+                    div(class="btn-hvr-setting")
+                        ul(class="btn-hvr-setting-inner")
+                            li(class="btn-hvr-effect")
+                            li(class="btn-hvr-effect")
+                            li(class="btn-hvr-effect")
+                            li(class="btn-hvr-effect")
+                    
+
+
