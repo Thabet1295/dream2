@@ -721,7 +721,7 @@ footer {
 
 			span {
 				margin-left: 10px;
-				font-size: 9px;
+				 
 			}
 		}
 	}
@@ -1087,7 +1087,8 @@ html[dir=rtl] {
 				}
 
 				span {
-					margin-left: 10px;
+					margin-right: 10px;
+					text-align: right;
 				}
 			}
 

@@ -755,7 +755,6 @@ footer .contact-info li i {
 }
 footer .contact-info li span {
   margin-left: 10px;
-  font-size: 9px;
 }
 
 #service img {
@@ -1013,7 +1012,8 @@ html[dir=rtl] footer .contact-info li i {
   padding-left: 5px;
 }
 html[dir=rtl] footer .contact-info li span {
-  margin-left: 10px;
+  margin-right: 10px;
+  text-align: right;
 }
 html[dir=rtl] #contact {
   text-align: right;
